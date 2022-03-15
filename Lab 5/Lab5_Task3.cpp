@@ -89,7 +89,7 @@ public:
 	{
 		destination = source;
 	}
-	string concatenate(string s1, string s2)
+	string concatenate(string s1, string s2) 
 	{
 		char s3[100] = { ' ' };
 		int i = 0;
@@ -118,12 +118,10 @@ public:
 	int searchWord(string word)
 	{
 		int k = 0;
-		cout << "Compare the word with st1";
-		for (int i = 0; st1[i] != '\0'; i++)
-		{
-			for (int j = 0; word[j] != '\0'; j++)
+		cout << "Compare the word with st1" << endl; //compares string entered with st1 in private
+			for (int i = 0; word[i] != '\0'; i++)
 			{
-				if (st1[j + i] == word[j])
+				if (st1[i] == word[i])
 				{
 					return 1;
 				}
@@ -134,6 +132,17 @@ public:
 				}
 
 			}
+	}
+	int searchChar(char ch)
+	{
+		for (int i = 0; st1[i] != '\0'; i++) //compares character entered with st1 in private
+		{
+			if (st1[i] == ch)
+			{
+				return 1;
+			}
+			else
+				return 0;
 		}
 	}
 };
@@ -151,6 +160,7 @@ int main()
 		cout << "5. Copy" << endl;
 		cout << "6. Concatenate" << endl;
 		cout << "7. Search Word" << endl;
+		cout << "8. Search Character" << endl;
 		cout << "0. Exit" << endl;
 		cout << "Enter any option: \n";
 		int option;
@@ -225,13 +235,29 @@ int main()
 			string word;
 			cin >> word;
 			int k = s.searchWord(word);
-			if (k == 0)
+			if (k == 1)
 			{
 				cout << "Word found" << endl;
 			}
 			else
 			{
 				cout << "Word not found" << endl;
+			}
+			break;
+		}
+		case 8:
+		{
+			cout << "Enter character: ";
+			char c;
+			cin >> c;
+			int k = s.searchChar(c);
+			if (k == 1)
+			{
+				cout << "Character found" << endl;
+			}
+			else
+			{
+				cout << "Character not found" << endl;
 			}
 			break;
 		}
