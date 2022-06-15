@@ -1,0 +1,3 @@
+﻿  Lab10_Task2.cpp
+D:\GIKI\Second Semester\CS112 Lab\Lab 10\Lab10_Task2\Lab10_Task2\Lab10_Task2.cpp(11,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Lab10_Task2.vcxproj -> D:\GIKI\Second Semester\CS112 Lab\Lab 10\Lab10_Task2\x64\Debug\Lab10_Task2.exe
