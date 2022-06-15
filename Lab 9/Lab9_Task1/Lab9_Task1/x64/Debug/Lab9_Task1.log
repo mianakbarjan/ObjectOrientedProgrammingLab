@@ -1,0 +1,8 @@
+﻿  Lab9_Task1.cpp
+D:\GIKI\Second Semester\CS112 Lab\Lab 9\Lab9_Task1\Lab9_Task1\Lab9_Task1.cpp(13,1): warning C4305: 'argument': truncation from 'int' to 'const _Elem'
+          with
+          [
+              _Elem=char
+          ]
+D:\GIKI\Second Semester\CS112 Lab\Lab 9\Lab9_Task1\Lab9_Task1\Lab9_Task1.cpp(13,10): warning C4309: 'argument': truncation of constant value
+  Lab9_Task1.vcxproj -> D:\GIKI\Second Semester\CS112 Lab\Lab 9\Lab9_Task1\x64\Debug\Lab9_Task1.exe
