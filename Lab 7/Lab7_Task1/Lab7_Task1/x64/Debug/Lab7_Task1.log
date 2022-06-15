@@ -1,0 +1,3 @@
+﻿  Lab7_Task1.cpp
+D:\GIKI\Second Semester\CS112 Lab\Lab 7\Lab7_Task1\Lab7_Task1\Lab7_Task1.cpp(71): warning C4715: 'Date::operator>': not all control paths return a value
+  Lab7_Task1.vcxproj -> D:\GIKI\Second Semester\CS112 Lab\Lab 7\Lab7_Task1\x64\Debug\Lab7_Task1.exe
